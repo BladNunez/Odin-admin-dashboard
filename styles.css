@@ -51,6 +51,11 @@ i:hover{
         display:inline-grid;
         grid-template: repeat(3,50px) / repeat(8,100px);
         padding-left: 20px;
+        width: 1000px;
+        box-shadow: 4px 2px 5px black;
+        padding-bottom: 20px;
+        margin-bottom: 20px ;
+        
 }
 
 .search{
@@ -103,5 +108,10 @@ button{
         border-radius: 18px;
         width: 100px;
         border-color: white;
+}
+
+button:hover{
+        background-color: darkolivegreen;
+
 }
 

@@ -49,18 +49,18 @@ i:hover{
 
 .content-container > .header-container{
         display:inline-grid;
-        grid-template: repeat(3,50px) / repeat(7,100px);
+        grid-template: repeat(3,50px) / repeat(8,100px);
         padding-left: 20px;
 }
 
 .search{
         grid-column-start: 1;
-        grid-column-end: 4;
+        grid-column-end: 5;
         padding-top: 20px;
 }
 
 input{
-        width:270px;
+        width:350px;
         background-color:silver;
         border-radius: 8px;
         border: azure;
@@ -72,13 +72,22 @@ input{
         grid-column-start: 1;
         grid-column-end: 4;
         column-gap: 15px;
+        padding-top: 12px;
 }
 
 .bell-name{
         display:flex;
-        grid-column-start: 5;
-        grid-column-end: 8;
+        grid-column-start: 6;
+        grid-column-end: 9;
         padding-top:20px;
         column-gap: 20px;
 
+}
+
+.buttons{
+        display: flex;
+        grid-row-start: 3;
+        grid-column-start: 6;
+        grid-column-end: 9;
+        column-gap: 18px;
 }

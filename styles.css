@@ -60,9 +60,10 @@ i:hover{
 }
 
 input{
-        width:350px;
+        width:370px;
+        height: 25px;
         background-color:silver;
-        border-radius: 8px;
+        border-radius: 10px;
         border: azure;
 }
 
@@ -91,3 +92,16 @@ input{
         grid-column-end: 9;
         column-gap: 18px;
 }
+
+img{
+        border-radius: 15px;
+}
+
+button{
+        background-color: deepskyblue;
+        color:snow;
+        border-radius: 18px;
+        width: 100px;
+        border-color: white;
+}
+

@@ -41,3 +41,14 @@ i:hover{
         font-size: 25px;
         padding-bottom: 20px;
 }
+
+.content-container{
+        display: flex;
+        flex-direction: column;
+}
+
+.content-container > .header-container{
+        display:grid;
+        grid-template: 50px 50px / 100px 100px 100px;
+        padding-left: 20px;
+}

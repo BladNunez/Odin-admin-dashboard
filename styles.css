@@ -1,0 +1,43 @@
+body{
+        margin: 0;
+}
+
+.top-container{
+        display:flex;
+}
+
+.dashboard{
+        display: flex;
+        flex-direction: column;
+        width: 18vw;
+        background-color: deepskyblue;
+        color:whitesmoke;
+        align-items: center;  
+}
+
+i:hover{
+        color:black;
+}
+
+
+.dashboard > :nth-child(3){
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       padding-top: 20px;
+       font-size: 23px; 
+       padding-bottom: 20px;   
+}
+
+.dashboard > :nth-child(5){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+        font-size: 23px;
+}
+
+.dashboard > :first-child{
+        font-size: 25px;
+        padding-bottom: 20px;
+}

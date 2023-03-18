@@ -128,7 +128,7 @@ legend{
         font-weight: bold;
 }
 
-.mainOne{
+.mainOne, .mainTwo, .mainThree{
         display: flex;
         flex-direction: column;
 }
@@ -169,3 +169,17 @@ legend{
         padding-right: 3px;
         
 }
+
+.mainTwo > :first-child{
+        margin-left: 7px;
+        margin-top: 40px;
+        margin-right: 7px;
+        padding-left: 10px;
+        width: 240px;
+        background-color:whitesmoke;
+        border-left: solid yellow 6px;
+        border-radius: 15px;
+        padding-right: 3px;
+        
+}
+

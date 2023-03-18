@@ -54,7 +54,6 @@ i:hover{
         width: 1000px;
         box-shadow: 4px 2px 5px black;
         padding-bottom: 20px;
-        margin-bottom: 20px ;
         
 }
 
@@ -113,5 +112,10 @@ button{
 button:hover{
         background-color: darkolivegreen;
 
+}
+
+.main-container{
+        background-color:aliceblue;
+        margin-top: 20px;
 }
 

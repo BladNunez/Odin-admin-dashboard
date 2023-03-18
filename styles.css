@@ -141,10 +141,31 @@ legend{
         border-radius: 15px;
 }
 
-.one{
+.one, .two, .three , .four, .five, .six{
         display: flex;
         justify-content: center;
         justify-content: space-around;
         padding-bottom: 10px;
 }
 
+.mainOne > :nth-child(3){
+        margin-top: 10px;
+        padding-left: 10px;
+        width: 250px;
+        background-color:whitesmoke;
+        border-left: solid yellow 6px;
+        border-radius: 15px;
+        
+}
+
+.mainOne > :nth-child(4){
+        margin-top: 10px;
+        padding-left: 10px;
+        width: 250px;
+        background-color:whitesmoke;
+        border-left: solid yellow 6px;
+        border-radius: 15px;
+        margin-bottom: 10px;
+        padding-right: 3px;
+        
+}

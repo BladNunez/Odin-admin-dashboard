@@ -192,3 +192,20 @@ legend{
         border-radius: 15px;
         padding-right: 3px;
 }
+
+.mainThree{
+        align-items: center;
+}
+
+hr{
+        height: 2px;
+        width: 300px;
+        background-color: black;
+}
+
+.mainThree > :nth-child(2){
+        width: 400px;
+        background-color: whitesmoke;
+        padding-left: 8px;
+        border-radius: 15px;
+}

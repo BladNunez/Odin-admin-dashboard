@@ -180,6 +180,15 @@ legend{
         border-left: solid yellow 6px;
         border-radius: 15px;
         padding-right: 3px;
-        
 }
 
+.easy , .money{
+        padding-left: 10px;
+        margin-left: 7px;
+        margin-top: 10px;
+        width: 240px;
+        background-color:whitesmoke;
+        border-left: solid yellow 6px;
+        border-radius: 15px;
+        padding-right: 3px;
+}

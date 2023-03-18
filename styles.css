@@ -117,5 +117,13 @@ button:hover{
 .main-container{
         background-color:aliceblue;
         margin-top: 20px;
+        display: flex;
+        padding-left: 20px;
+}
+
+legend{
+        padding-top: 8px;
+        font-size: 20px;
+        font-weight: bold;
 }
 

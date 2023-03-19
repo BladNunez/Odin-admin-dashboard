@@ -12,7 +12,8 @@ body{
         width: 18vw;
         background-color: deepskyblue;
         color:whitesmoke;
-        align-items: center;  
+        align-items: center;
+        padding-top: 20px;  
 }
 
 i:hover{
